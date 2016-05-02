@@ -1,0 +1,23 @@
+---------------------------------------------- Test Auotmation Framework Doc------------------------
+
+
+/**
+ *
+ * Updated by:           Hassan Arshad
+ * Updated on:           May 01, 2016
+ * Update Summary:       Test Automation Framework Doc
+ */
+
+This is the V0.0 of the Tets Automation Framework created specially for a test assignment requested by Aurora Solutions as an evaluation of skills.
+
+The frameowrk uses Page Object Pattern and Factory paaterns and combines the two design patterns to create page object factory. 
+Each screen has its own class and each class contains public methods to handle objects and events.
+Test Data is defined in JSON pfiles and a TestdataCookBook class has been written to facilitate JSON parsing and converting json data into java objects.
+
+Verification is done through TestNG assertions and fetching data by using selenuim webdriver methods.
+
+As a demo Xpath has been used to identify web elements, although other method scould have been used.
+
+For any other queries email me at hassanairion12@gmail.com or call at +923455096472.
+
+Happy Automation!

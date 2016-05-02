@@ -1,0 +1,35 @@
+{
+    "Product1": "Bar code: yourbarcode001e, Description: your product description 01e",
+    "Product2": "Bar code: yourbarcode02e, Description: your product description 02e",
+    "Product3": "Bar code: yourbarcode03b, Description: your product description 03b",
+    
+    "Store1": "Store1",
+    "Price1":"10",
+    
+    "Store2": "Store2",
+    "Price2":"10",
+    
+    "Store3": "Store3",
+    "Price3":"10",
+    
+    "Store4": "Store4",
+    "Price4":"10",
+    
+    "Store5": "Store5",
+    "Price5":"10",
+    
+    "Store6": "Store6",
+    "Price6":"10",
+    
+    "Store7": "Store7",
+    "Price7":"10",
+    
+    "Store8": "Store8",
+    "Price8":"10",
+    
+    "Store9": "Store9",
+    "Price9":"10",
+    
+    "Store10": "Store10",
+    "Price10":"10"
+}

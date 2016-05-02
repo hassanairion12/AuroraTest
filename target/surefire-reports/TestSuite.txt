@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 203.354 sec <<< FAILURE!
+test(com.aurora.auroratest.TestCase_001_3ProductsCreation)  Time elapsed: 14.009 sec  <<< FAILURE!
+java.lang.AssertionError: expected [yourbarcode001e] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.aurora.auroratest.TestCase_001_3ProductsCreation.test(TestCase_001_3ProductsCreation.java:81)

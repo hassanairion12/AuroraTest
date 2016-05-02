@@ -1,0 +1,28 @@
+/*----------------------BUG Report-------------------------------------------
+
+/**
+ *
+ * Updated by:           Hassan Arshad
+ * Updated on:           May 01, 2016
+ * Update Summary:       Bugs found during testing
+ */
+
+1. 
+Error 500: Internal Server Error
+URI
+/prizy-pricer/product/show/2525
+Class
+java.lang.NullPointerException
+Message
+Cannot invoke method getIdealPrice() on null object
+Trace
+   Line | Method
+->>   9 | getIdealPrice in prizy.pricer.IdealPriceStrategy
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+|    54 | getPrices     in prizy.pricer.ProductController
+|    42 | show . . . .  in     ''
+^   662 | run           in java.lang.Thread
+
+
+2. The Language settings do not apply to the whole application it only applies to an individual page which is not a correct behavior, must apply to each page and must be intuitive enough to follow the settings of a parent page
+------------------------------------------------------------------------------- */
